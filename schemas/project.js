@@ -50,11 +50,11 @@ export default {
                 Rule.required().error('Please enter the deployed site URL.'),
         },
         {
-            name: 'video',
+            name: 'loom',
             type: 'url',
-            title: 'Video URL',
-            // validation: (Rule) =>
-            //     Rule.required().error('Please enter a hosted video URL.'),
+            title: 'Loom URL',
+            validation: (Rule) =>
+                Rule.required().error('Please enter a loom URL.'),
         },
     ],
 };
